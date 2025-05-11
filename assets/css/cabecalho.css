@@ -80,6 +80,11 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.promocao{
+    height: 30px;
+    background-color: red;
+}
+
 @media (max-width: 768px) {
     .toggle {
         display: block;
