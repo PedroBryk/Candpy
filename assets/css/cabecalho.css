@@ -1,0 +1,113 @@
+.promocao {
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+    color: #f0dede;
+}
+
+/* 🟢 Cabeçalho */
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5D7369;
+    height: 12vh;
+    padding: 2rem;
+}
+
+header{
+    position: fixed;
+    z-index: 1000;
+    margin: 0;
+    width: 100%;
+}
+/* 🔗 Redes sociais */
+.redes__sociais {
+    display: flex;
+    gap: 10px;
+}
+
+/* 🖼️ Logotipo responsivo */
+.logotipo__cabecalho {
+    width: 20%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* 🛒 Carrinho */
+.carrinho__acesso {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+
+nav.menu {
+    background-color: #AABFA4;
+    overflow: hidden;
+    max-height: none;
+    transition: max-height 0.4s ease;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff1c0;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+.toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .toggle {
+        display: block;
+    }
+
+    .carrinho__container {
+        display: none;
+    }
+
+    nav.menu {
+        max-height: 0;
+        padding-top: 0;
+        transition: max-height 0.4s ease;
+    }
+
+    nav.menu.active {
+        max-height: 300px;
+        padding-top: 10px;
+    }
+
+    nav.menu ul {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    .logotipo__cabecalho {
+        width: 50%;
+    }
+}
