@@ -9,5 +9,39 @@ main{
     padding-top: 12vh;
 }
 
+.sobre__container{
+    display: flex;
+}
 
+.sobre__confeiteira{
+    padding: 2rem;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.sobre__confeiteira-titulo{
+    padding-top: 2rem;
+}
+
+.sobre__confeiteira-img img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    background-color:#5D7369;
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+
+    .sobre__container{
+    flex-direction: column;
+    }
+
+    
+}
 
