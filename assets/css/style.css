@@ -34,6 +34,9 @@ main{
 footer{
     background-color:#5D7369;
     height: 200px;
+    display: grid;
+    place-items: center;
+    color: #F2EDDC;
 }
 
 @media (max-width: 768px) {

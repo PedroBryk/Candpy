@@ -1,0 +1,125 @@
+/* Fonte e base */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F2EDDC;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout principal */
+.carrinho__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 100vh;
+}
+
+/* Colunas */
+.produtos-container,
+.endereco-container,
+.finalizar-container {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.produtos-container {
+    border-right: 2px solid #053D38;
+}
+
+.endereco-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-right: 2px solid #053D38;
+}
+
+.finalizar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Cartões de produto */
+.produto-card {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(5, 61, 56, 0.1);
+}
+
+/* Formulário de endereço */
+.endereco__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input {
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(5, 61, 56, 0.15);
+    font-size: 16px;
+}
+
+/* Botões */
+.botoes_finalizar {
+    display: flex;
+    gap: 20px;
+}
+
+.btn__principal {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    background-color: #053D38;
+    color: #d8ca9a;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.btn__principal:hover {
+    background-color: #222222;
+}
+
+/* Títulos */
+.titulo__main {
+    color: #053D38;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .carrinho__container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .finalizar-container {
+        border-top: 2px solid #053D38;
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .carrinho__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produtos-container,
+    .endereco-container,
+    .finalizar-container {
+        border: none;
+        padding: 16px;
+    }
+
+    .btn__principal {
+        width: 100%;
+    }
+}

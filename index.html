@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <title>Candpy | Home</title>
 </head>
 <body>
     <header>
         <div class="promocao">
-            <p class="promocao__texto">Frete Grátis para pedidos acima de R$200</p>
+            <p id="promocao__texto" class="promocao__texto">Frete Grátis para pedidos acima de R$200</p>
         </div>
         <div class="header__container">
             <div class="redes__sociais">
@@ -31,9 +33,11 @@
             </div>
             <img src="./assets/img/logotipo.png" alt="Logotipo CandPy" class="logotipo__cabecalho">
             <div class="carrinho__container">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff1c0" class="bi bi-basket" viewBox="0 0 16 16">
-                    <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9zM1 7v1h14V7zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5"/>
-                </svg>
+                <a href="carrinho.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff1c0" class="bi bi-basket" viewBox="0 0 16 16">
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9zM1 7v1h14V7zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5m2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5"/>
+                    </svg>
+                </a>
             </div>
             <div class="toggle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#fff1c0" class="bi bi-list" viewBox="0 0 16 16">
@@ -43,9 +47,8 @@
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
@@ -54,7 +57,7 @@
     <main>
         <section class="banner__destaque">
             <section class="banner">
-                <h1>pedro</h1>
+                
             </section>
             <section class="produtos__destaque">
                 <h2 class="titulo__principal">Produtos em destaque</h2>
@@ -88,7 +91,7 @@
                 </div>
                 <div class="sobre__confeiteira-titulo">
                     <h2 class="titulo__principal">Carinho em cada produto</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sed nobis nam rem accusamus at voluptatem voluptatibus repellat, ullam a cumque ipsum. Dicta optio, id porro unde corporis ad repellat?</p>
+                    <p>Em nossa confeitaria, cada doce é preparado com dedicação e cuidado, porque sabemos que o verdadeiro sabor vem do amor colocado em cada etapa. Valorizamos o processo artesanal, respeitando receitas tradicionais e personalizando cada detalhe para que você sinta o carinho em cada mordida. Nosso compromisso é transformar ingredientes simples em momentos especiais que aquecem o coração.</p>
                 </div>
             </div>
             <div class="sobre__confeiteira">
@@ -97,13 +100,13 @@
                 </div>
                 <div class="sobre__confeiteira-titulo">
                     <h2 class="titulo__principal">Ingredientes selecionados</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sed nobis nam rem accusamus at voluptatem voluptatibus repellat, ullam a cumque ipsum. Dicta optio, id porro unde corporis ad repellat?</p>
+                    <p>Selecionamos cuidadosamente cada ingrediente para garantir a máxima qualidade e sabor em nossos produtos. Priorizamos matérias-primas frescas, naturais e de fornecedores confiáveis, buscando sempre o equilíbrio perfeito entre sabor e autenticidade. Esse cuidado é essencial para que nossas receitas tradicionais mantenham sua excelência e proporcionem experiências deliciosas a cada doce.</p>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        
+        <p>&copy; 2025 Candpy. Todos os direitos reservados.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

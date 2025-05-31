@@ -8,7 +8,6 @@
     color: #f0dede;
 }
 
-/* 🟢 Cabeçalho */
 .header__container {
     display: flex;
     justify-content: space-between;
@@ -24,13 +23,13 @@ header{
     margin: 0;
     width: 100%;
 }
-/* 🔗 Redes sociais */
+
 .redes__sociais {
     display: flex;
     gap: 10px;
+    cursor: pointer;
 }
 
-/* 🖼️ Logotipo responsivo */
 .logotipo__cabecalho {
     width: 20%;
     max-width: 100%;
@@ -38,7 +37,6 @@ header{
     object-fit: contain;
 }
 
-/* 🛒 Carrinho */
 .carrinho__acesso {
     display: flex;
     align-items: baseline;
