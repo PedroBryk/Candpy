@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
-    <link rel="stylesheet" href="./assets/css/produtos.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/kaka.css">
     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
-    <title>Candpy | Produtos</title>
+    <title>Candpy | Blog</title>
 </head>
 <body>
     <header>
@@ -51,64 +52,55 @@
                 <li><a href="produtos.html">Produtos</a></li>
                 <li><a href="index.html">Sobre</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="carrinho.html">Carrinho</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="container__produtos">
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/produtos/banoffe.png" alt="Imagem de uma torta banoffe">
-                <h2 class="produto__titulo">Torta Banoffe</h2>
-                <p class="produto__descricao">Uma torta refinada, com chantilly perfeitamente aerado cobrindo a superfície e enfeitada com flores comestíveis delicadamente coloridas. A simplicidade dos detalhes faz com que seja uma sobremesa de destaque.</p>
-                <h2 class="produto__preco">12,00</h2>
-                <button class="add__btn">Adicionar ao Carrinho</button>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/produtos/bem casado.png" alt="Imagem de um bem casado">
-                <h2 class="produto__titulo">Bem casado</h2>
-                <p class="produto__descricao">Doce tradicional da confeitaria brasileira, feito com duas camadas de massa leve e macia, semelhantes a um pão de ló, unidas por um generoso recheio de doce de leite. Coberto por uma fina camada de açúcar</p>
-                <h2 class="produto__preco">15,00</h2>
-                <button type="button" class="add__btn">Adicionar ao Carrinho</button>
-            </div>
-            <div  class="produto">
-                <img class="produto__imagem" src="./assets/img/produtos/brigadeiro.png" alt="Imagem de um brigadeiro">
-                <h2 class="produto__titulo">Brigadeiro</h2>
-                <p class="produto__descricao">Feito com leite condensado, chocolate em pó e manteiga, cozido até atingir ponto de enrolar, tradicionalmente moldado em pequenas bolinhas e coberto com granulado de chocolate.</p>
-                <h2 class="produto__preco">6,00</h2>
-                <button type="button" class="add__btn">Adicionar ao Carrinho</button>
-            </div>
-            <div class="produto">
-                <img class="produto__imagem" src="./assets/img/produtos/palha italiana.png" alt="Imagem de uma palha italiana">
-                <h2 class="produto__titulo">Palha Italiana</h2>
-                <p class="produto__descricao">Combina a cremosidade do brigadeiro com a crocância do biscoito maisena picado. Após ser misturada e moldada em uma camada firme, é cortada em quadradinhos e finalizada com açúcar.</p>
-                <h2 class="produto__preco">9,00</h2>
-                <button type="button" class="add__btn">Adicionar ao Carrinho</button>
-            </div>
-            <div  class="produto">
-                <img class="produto__imagem" src="./assets/img/produtos/torta de limao.png" alt="Imagem de uma torta de limao">
-                <h2 class="produto__titulo">Torta de limão</h2>
-                <p class="produto__descricao">Sobremesa refrescante e equilibrada, composta por uma base crocante de biscoito, um recheio cremoso de leite condensado com suco de limão e uma cobertura leve de merengue.</p>
-                <h2 class="produto__preco">10,00</h2>
-                <button type="button" class="add__btn">Adicionar ao Carrinho</button>
-            </div>
-            <div  class="produto">
-                <img class="produto__imagem" src="./assets/img/produtos/trufa.png" alt="Imagem de uma trufa">
-                <h2 class="produto__titulo">Trufa</h2>
-                <p class="produto__descricao">Sofisticado e irresistível, feito com uma base cremosa de chocolate e creme de leite, podendo ser recheada ou aromatizada com diversos sabores, como licor, frutas ou castanhas, envolta por uma fina camada de chocolate.</p>
-                <h2 class="produto__preco">8,00</h2>
-                <button type="button" class="add__btn">Adicionar ao Carrinho</button>
+
+    <main class="container">
+        <section class="fundo">
+            <h2>Bem-vindo ao Blog do CANDPY</h2>
+            <p>Descubra receitas incríveis e muito mais para inspirar o seu dia a dia na cozinha.</p>
+            <a href="#" class="btn">Explorar Receitas</a>
+        </section>
+
+        <section class="Ultimas-receitas">
+            <h2>Últimas Receitas</h2>
+            <div class="receitas-grid">
+                <article class="receitas-card">
+                    <img src="./assets/img/produtos/mousse de limão.png" alt="Nome da Receita 1">
+                    <h3><a href="#">Mousse de limão</a></h3>
+                    <p>Para fazer essa mousse de limão você só precisa misturar três ingredientes no micro-ondas e colocar na vasilha. Depois disso é só botar na geladeira até ficar no ponto. Confira a receita da mousse de limão!</p>
+                    <a href="#" class="ler-mais">Ler Mais</a>
+                </article>
+                <article class="receitas-card">
+                    <img src="./assets/img/produtos/sorvete de frutas.png" alt="Nome da Receita 2">
+                    <h3><a href="#">Sorvete de Frutas</a></h3>
+                    <p>Você pode fazer sorvete em casa de vários sabores. Para fazer de fruta, por exemplo, é só usar um pacote de gelatina do sabor que desejar. Faça agora mesmo um sorvete fácil e rápido!</p>
+                    <a href="#" class="ler-mais">Ler Mais</a>
+                </article>
+                <article class="receitas-card">
+                    <img src="./assets/img/produtos/Semifreddo de cappuccino.png" alt="Nome da Receita 3">
+                    <h3><a href="#">Semifreddo de cappuccino</a></h3>
+                    <p>O semifreddo é uma sobremesa fácil que vai no congelador e fica supergelada, perfeita para comer após os almoços de verão. Prepare agora mesmo o semifreddo de cappucino!</p>
+                    <a href="#" class="ler-mais">Ler Mais</a>
+                </article>
             </div>
         </section>
+
+        <section class="categorias">
+            <h2>Categorias Populares</h2>
+            <ul>
+                <li><a href="#">Bolos</a></li>
+                <li><a href="#">Tortas</a></li>
+                <li><a href="#">Mousses</a></li>
+                <li><a href="#">Donuts</a></li>
+                <li><a href="#">pavê</a></li>
+            </ul>
+        </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 Candpy. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Todos os direitos reservados.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
-    <script src="./assets/JavaScript/nav.js"></script>
-    <script src="./assets/JavaScript/carrinho.js"></script>
-    <script src="./assets/JavaScript/endereco.js"></script>
 </body>
 </html>
